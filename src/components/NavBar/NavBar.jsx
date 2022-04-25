@@ -6,7 +6,7 @@ const NavBar = () => {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
     <Container>
     <i class="fa-solid fa-play play"></i>
-    <Navbar.Brand href="#home" className='text-green'><span>Video UI</span></Navbar.Brand>
+    <Navbar.Brand onClick={() => {window.location.href="/"}} className='text-green'><span>Video UI</span></Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ml-auto">

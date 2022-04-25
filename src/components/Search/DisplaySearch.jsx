@@ -2,8 +2,9 @@ import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import ReactPlayer from 'react-player/lazy'
 import AddComment from '../Comments/AddComment'
+import Home from '../Home/Home'
 const DisplaySearch = ({search}) => {
-  return (
+  return (<>
     <Container>
       <Row className="justify-content-center">
         {search?.map((video) => (
@@ -22,7 +23,7 @@ const DisplaySearch = ({search}) => {
         ))}
       </Row>
     </Container>
-  )
+    </> )
 }
 
 export default DisplaySearch

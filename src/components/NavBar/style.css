@@ -6,3 +6,7 @@ span, .play{
     color: #ffbf00;
  
 }
+
+.text-green{
+    cursor: pointer;
+}
